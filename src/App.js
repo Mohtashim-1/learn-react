@@ -4,7 +4,7 @@ import Student from './Components/Student'
 function App() {
   return (
     <div className="App">
-      <Student name="mohtashim" />
+      <Student name="mohtashim" age="20" />
     </div>
   )
 }

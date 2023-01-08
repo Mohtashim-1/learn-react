@@ -2,11 +2,10 @@ import React from 'react'
 
 const Student = (props) => {
   return (
-
-
-<h1>{props.name}</h1>
-
-
+    <>
+      <h1>{props.name}</h1>
+      <h2>{props.age}</h2>
+    </>
   )
 }
 
