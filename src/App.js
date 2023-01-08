@@ -1,13 +1,12 @@
-import "./App.css";
-import Student from "./Components/Student";
+import './App.css'
+import Student from './Components/Student'
 
 function App() {
   return (
     <div className="App">
-<Student name="mohtashim"/>
-
+      <Student name="mohtashim" />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
