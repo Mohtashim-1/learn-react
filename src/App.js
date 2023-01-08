@@ -1,10 +1,17 @@
 import './App.css'
-import Student from './Components/Student'
-
+import Header from './Components/Header'
+import Movies from './Components/Movies'
 function App() {
   return (
     <div className="App">
-      <Student name="mohtashim" age="20" />
+      <Header />
+      <div className="main">
+        <Movies />
+        <Movies />
+        <Movies />
+        <Movies />
+        <Movies />
+      </div>
     </div>
   )
 }
